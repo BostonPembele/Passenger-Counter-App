@@ -1,7 +1,5 @@
-   var er = 2;
+let count = 0
 
-   if(er < 10){
-    er++;
-   }
-   
-   document.getElementById("count-el").innerText = er
+console.log(count)
+
+document.getElementById("count-el").innerText = count
