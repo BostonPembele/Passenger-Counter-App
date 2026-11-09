@@ -1,5 +1,16 @@
-let count = 0
 
-console.log(count)
+    let count = 0
 
-document.getElementById("count-el").innerText = count
+function increment(){
+    count++
+    console.log(count)
+    document.getElementById("count-el").innerText = count
+}
+
+function decrement(){
+    count--
+    console.log(count)
+    document.getElementById("count-el").innerText = count
+}
+
+
